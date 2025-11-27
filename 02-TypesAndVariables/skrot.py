@@ -6,3 +6,5 @@ def skrot(uniwersytet):
     
 uniwersytet = input('Nazwa uniwersytetu: ')
 skrot(uniwersytet)
+
+#przerwa - skonczyłem na 6.3
