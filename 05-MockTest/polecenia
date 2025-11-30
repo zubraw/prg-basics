@@ -1,0 +1,56 @@
+(p1.py) Zdefiniuj funkcję f(tree_circumference), 
+która na podstawie obwodu drzewa sprawdza, czy jego 
+średnica wynosi co najmniej 50 cm. Funkcja zwraca True,
+ jeśli średnica jest większa lub równa 50, lub False w 
+ przeciwnym wypadku 
+ (przyjmij pi = 3.14). Przykładowy wynik: f(200) zwraca 
+ True f(100) zwraca False
+
+(p2.py) Zdefiniuj funkcję f(x,y), 
+która dla podanych współrzędnych punktu zwraca numer 
+ćwiartki układu współrzędnych (1, 2, 3 lub 4), 
+w której ten punkt się znajduje. 
+Przykładowy wynik: f(5,2) zwraca 1 f(-5,-2) zwraca 3
+
+(p3.py) Kod produktu składa się z cyfr, gdzie czwarta cyfra jest cyfrą kontrolną. 
+Zdefiniuj funkcję f(product_code), która sprawdza poprawność kodu. 
+Funkcja zwraca True, jeśli czwarta cyfra jest równa reszcie z dzielenia 
+sumy pozostałych cyfr przez 7, lub False w przeciwnym wypadku. 
+Przykładowy wynik: f("1082") zwraca True f("2035") zwraca True
+
+(p4.py) Zdefiniuj funkcję f(n), która zwraca łańcuch znaków 
+składający się z kolejnych liczb całkowitych od 1 do n. 
+Przykładowy wynik: f(4) zwraca "1234" f(0) zwraca ""
+
+(p5.py) Zdefiniuj funkcję f(a,b), która oblicza sumę liczb podzielnych 
+przez 3 znajdujących się w przedziale domkniętym od a do b. 
+Przykładowy wynik: f(1,6) zwraca 9 f(2,10) zwraca 18
+
+(p6.py) Zdefiniuj funkcję f(student1, student2), która przyjmuje 
+ciągi ocen dwóch studentów (jako stringi). 
+Funkcja oblicza średnią ocen (uwzględniając cyfry 2, 3, 4, 5) 
+i porównuje studentów. Funkcja zwraca 1, jeśli 
+średnia studenta1 jest wyższa, 2 jeśli średnia studenta2 jest 
+wyższa, lub 0 w przypadku remisu. 
+Przykładowy wynik: f("3,4,5","4,3") zwraca 0 f("3,4,5","5,5,4,5") zwraca 2
+
+(p7.py) Zdefiniuj funkcję f(number), która sprawdza, 
+czy podana liczba należy do ciągu Fibonacciego. 
+Funkcja zwraca True, jeśli liczba jest elementem ciągu, lub False w przeciwnym wypadku. 
+Przykładowy wynik: f(5) zwraca True f(7) zwraca False
+
+(p8.py) Zdefiniuj funkcję f(speed1,speed2), 
+która porównuje dwie prędkości: speed1 podaną w km/h oraz 
+speed2 podaną w m/s. 
+Funkcja zwraca True, jeśli prędkości są sobie równe, lub False w przeciwnym wypadku. 
+Przykładowy wynik: f(36,10) zwraca True f(20,20) zwraca False
+
+(p9.py) Rozmiary odzieży określone są symbolami S, M oraz innymi 
+(traktowanymi jako większe, np. L/XL). Zdefiniuj funkcję f(size1,size2), 
+która porównuje dwa rozmiary. Funkcja zwraca 1, jeśli size1 jest większy, 
+2 jeśli size2 jest większy, lub 0 jeśli rozmiary są takie same. 
+Przykładowy wynik: f("L","S") zwraca 1 f("M","L") zwraca 2
+
+(p10.py) Zdefiniuj funkcję f(time1, time2), która przyjmuje 
+dwie godziny w formacie tekstowym (format 24h "HH:MM" lub 12h). 
+Funkcja zwraca godzinę, która jest wcześniejsza.
