@@ -1,0 +1,4 @@
+['The Trial', 'Franz Kafka', 'Modernist', '1925']
+['Ulysses', 'James Joyce', 'Modernist', '1922']
+['The Metamorphosis', 'Franz Kafka', 'Modernist', '1915']
+['The Trial', 'Franz Kafka', 'Modernist', '1925']
