@@ -15,7 +15,18 @@ cards = queue.LifoQueue()
 # adds elements to the top of the stack
 cards.put('King of Hearts \u2665')    
 cards.put('Queen of Diamonds \u2666')  
-cards.put('Jack of Spades \u2660')     
+cards.put('Jack of Spades \u2660')
+#cards.put(2)
+#cards.put(3)
+#cards.put(7)
+#cards.put(4)
+#cards.put(1)
+#cards.put(9)
+#cards.put(8)
+#last_card = cards.get(1)
+#sec_last_card = cards.get(2)
+#sum_last_two = last_card + sec_last_card
+#print(f'Sum of the last two numbers: {sum_last_two}')
 
 ## prints number of elements of the stack
 print('Number of stack elements:', cards.qsize())
