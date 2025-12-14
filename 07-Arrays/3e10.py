@@ -2,9 +2,13 @@
 # Create a program that prints the numbers from the first array 
 # that do not appear in the second array.
 
-arr1 = [4,36,12,28,9,44,5]
-arr2 = [5,1,36]
-arr = []
-for i in arr1:
-    if i not in arr2:
-        print(i, end=' ')
+# arr1 = [4,36,12,28,9,44,5]
+# arr2 = [5,1,36]
+def f(arr1,arr2):
+    arr = []
+    for i in arr1:
+        if i not in arr2:
+            arr.append(i)
+    return(arr)
+print(f([4,36,12,28,9,44,5],[5,1,36]))
+    

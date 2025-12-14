@@ -1,0 +1,38 @@
+PLIKI TXT ITD.
+with open('file.txt', 'r', encoding='utf-8') as f:
+    text = f.read()
+
+with open('file.txt', 'w', encoding='utf-8') as f:
+    f.write("Hello\n")
+
+JSON
+
+import json
+
+with open('data.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+import json
+
+with open('data.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=4)
+
+
+
+CSV
+
+import csv
+
+with open('file.csv', 'r', encoding='utf-8') as f:
+    reader = csv.reader(f)
+    next(reader)   # pomiń nagłówek
+    for row in reader:
+        print(row)
+
+
+import csv
+
+with open('file.csv', 'w', newline='', encoding='utf-8') as f:
+    writer = csv.writer(f)
+    writer.writerow(['name', 'age'])
+    writer.writerow(['Anna', 20])
