@@ -21,5 +21,12 @@ def main():
     user1.add_post('Whats up, Natalie? How are you?')
     user1.display_timeline()
 
+    user2 = SocialMediaProfile('zubraw')
+    user2.add_post('Japierdole samych debili mi daje na te flexy')
+    user2.add_post('Kurwa adc mają teraz dodatkowego slota na itemy??')
+    user2.add_post('XDDDDD kurwa tahm kench full build zostaje oneshotowany przez caitlyn')
+    user2.add_post('Pierdole tą gre pobieram dote')
+    user2.display_timeline()
+
 if __name__ == "__main__":
     main()
